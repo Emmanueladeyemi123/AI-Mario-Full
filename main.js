@@ -4,6 +4,11 @@ var GameStatus="";
 
 function preload() {
 	world_start = loadSound("world_start.wav");
+	mario_jump= loadSound("jump.wav");
+	mario_coins=loadSound("coin.wav");
+	mario_kick=loadSound("kick.wav");
+	mario_gameover=loadSound("gameover.wav");
+	mario_die=loadSound("mariodie.wav")
 	setSprites();
 	MarioAnimation();
 }
